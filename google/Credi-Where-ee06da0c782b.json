@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "credi-where",
+  "private_key_id": "ee06da0c782b7bb85ebadd6c84292dc851a9e984",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsk4MJ72qPsH5l\nzm6M7o8zzbn2g24ZglWYEVLTpw99gKWHX+tXI5RMxV0uVYzFGLGdw0ufIhIeHIjb\n1d1UbevMiulfOAJn170WLnsvYj8d5jUVLsZTFmJFD/Esouow6hGUPItxcVcyy+Wn\nYoGdjxFbat11o+5hnFi4sEYtVlz9n8xrz/CMIhVHuYVaS/h+22hmsj1gXDcJOZa5\n9MB9oTYulY2WWy6RrzWKa4dkAj/GIoly+bGHLVoqzMG+InPnC2haRPm8yzrxdkVG\ncCa+pFqcVW25LUFwd1Jpk7ShMXkOY08kvsfa4juFen1yYE3rreLr9oVQnypopHLZ\nsEMm1JmzAgMBAAECggEAHAKROTKXvBysVz/LJ6qsqX7RmRY573/8/oKJS/sIg5k2\nxKMn4mvO7Sr3dcbC41aftXh2NKzl/ecpu2yZ0NNKe1dsi1ze3xXgBdKjgcxTbDnq\nEbcWz3OJnaX5wgHrOucy1TmCdHYt7fu0GZfea8FF0u2kZiymS0eCCu/pZABpdWyO\n0nVQlXyR/D/6T0na7p6hX1W8vHHepKh0BOiXv2RElPXpzOaezxnijfF6rcZDniDg\nSXIjlfPZ3s2GrIALeeUkqGUJsOdgOusRoczN6psKODd1J76QYlw6ybEcxrt7B0nL\n+inN8Vqt5ifPmp8hnKAvDrsiosyZkmr7bSiAq+B9SQKBgQDl+8ntdKL9128KLFTJ\nahhUMgN+CZaZTtPD3QJWZz6CRwUWthiLQaBU1h3Ra0FkR1QWm9Yiw1Y59OGqR2z6\n4tJghwYACNtI746kEFxZlzvsys1Xu3WTK4j6UTHeHGovtRJgGl2JmrLHcC4WbZx7\nt7lhPeoH1yi5Nnlt0tSCIragfwKBgQDAGTwdEJXlSZeaK94mJA4Yg71nCHGMVs5z\nTwJtXGVZyt1XBA/QyCjUh9O5gOCXnfw87DYWpQxXkqmqj2iIAvr/LBWaLr/O6Sgj\n015LnaZbf1OildPJru5dV/5Vf+L+Sih+snHMdVu7Ay7aoDIQ7V8nn5qe4YW9ZDbE\nnstw0N/szQKBgAY1MrEnKdMiQowKwEsjgv6azv9S8O64cvzhdVOxu702f4uqZKU1\no0dG9E0X0Q8M4dcuY6xSi3xLAOBgxy9KehVC78WGd6zTUo1ZJ7T/YQ22N667j6Pm\nU+81y9vL9o3NHG7dp1K0i0jY3VWbpdKtFeLrEeseQqolL0fonfXZTAavAoGAQlT0\nYvzlJaWByeS38uekTma/MiLCQrl+1GZF6klrXdQlFfT7GRbksm6sd3O/Gdudy9Os\n4ajgWCT2nUSjzcNptE8ernzSErqD98r21pl7ZkDTOmMOHKhg+q51zkQ4t6IX1Zf8\nn6Mup6bzuN50K1Ar+VytYYtySPGfz8kdarlVeUkCgYEAqFScWnjWdn/NmkLq6x3+\nqCnwKiJESCJ43oyTWqyUszh6qER1JjahIjSAZ5hKTfg8U+9l5d2ylGLriXjKdil/\nl2ZMfas3BKqr8t74Zv0aCy2NGMKRYnXZXuWzT1rdk6AtXFKNgJ4USvpB+Fi4hm5w\ne+jHhQZZn5cf0Nw/XHOYNrg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "crediwhere@credi-where.iam.gserviceaccount.com",
+  "client_id": "110711836596674802537",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/crediwhere%40credi-where.iam.gserviceaccount.com"
+}

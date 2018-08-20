@@ -1,0 +1,39 @@
+//linux
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/Credi-Where-66b53090d38c.json"
+//windows
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\NodeJS\crediwhere-services\google\Credi-Where-ee06da0c782b.json"
+
+
+//Server Pruebas
+export GOOGLE_APPLICATION_CREDENTIALS="/opt/nodeApps/credi-where-s/google/Credi-Where-f022ee068f87.json"
+--------------				V0.0.1				--------------
+
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///// enrique
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\enrique\software\nodejs\google\nuevo\Credi-Where-66b53090d38c.json"
+=======
+//windows
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\NodeJS\crediwhere-services\google\Credi-Where-ee06da0c782b.json"
+>>>>>>> f64b6cc430db79ca48ff1f8ca85208b45db3bd9f

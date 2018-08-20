@@ -1,0 +1,37 @@
+* * * * * * * * * * * * * * * * * * * *       PERSONAL    * * * * * * * * * * * * * * * * * * * *
+127.0.0.1:3789/credi-where/users/personal
+{
+	"name": "JOSE",
+	"name2": "ENRIQUE",
+	"last_name": "VERGARA",
+	"last_name2": "AMBRIZ",
+	"birthdate": "1994-04-21",
+	"gender": "H",
+	"phone": "55699631",
+	"mobile_phone": "5522415589",
+	"rfc": "BADD110313",
+	"curp": "BADD110313HCMLNS09",
+	"nationality": 103,
+	"country": "020",
+	"american_citizenship": "1",
+	"entity_birth": 15,
+	"level_study": 5,
+	"civil_status": 1,
+	"mobile_phone_company": "TELCEL"
+}
+
+
+* * * * * * * * * * * * * * * * * * * *       ADDRESS    * * * * * * * * * * * * * * * * * * * *
+127.0.0.1:3789/credi-where/users/address
+{
+	"state": 4 ,
+	"municipality": 1,
+	"colony": "Primero de Mayo",
+	"street": "Argentina",
+	"ext": "Mz. 8" ,
+	"int": "Lt. 5" ,
+	"cp": "55100",
+	"additional_reference": "Cerca un Soriana",
+	"years_residence": 10,
+	"country": "020"
+}

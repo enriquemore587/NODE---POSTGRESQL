@@ -1,0 +1,95 @@
+{
+  "INE" : {
+    "direccion": [
+      {"exp": "domicilio\\n.+\\n.+\\n.+", "flag": "img"}
+    ],
+    "curp" : [
+      {"exp": "(CURP) [a-z0]{4}[0-9o]{6}[a-z0]{6}[0-9o]{2}", "flag": "img"}
+    ],
+    "nombre": [
+      {"exp": "(nombre)(\\s)(\\w+)(\\s)(\\w+)(\\s)(\\w+)(\\s)(\\w+)?", "flag": "ig"}
+    ],
+    "clave": [
+      {"exp": "(CLAVE DE ELECTOR)(\\s)(\\w+|\\d+)", "flag": "ig"}
+    ]
+  },
+  "BACK_INE" : {
+    "ID" : [
+      {"exp": "\\d{13}", "flag": "img"}
+    ]
+  },
+  "TELMEX" : {
+    "domicilio" : [
+      {"exp" : "\\.\\s\\d{5}", "flag": "gim"}
+    ],
+    "calle": [
+      {"exp" : ".+\\n.+\\n.+\\n.+\\.\\s\\d{5}", "flag": "gim"}
+    ]
+  },
+  "IZZI": {
+    "domicilio" : [
+      {"exp" : "(.+(\\n).+(\\n).+(\\n))?^(c.p.)\\s.{5}", "flag": "igm"}
+    ]
+  },
+  "CFE": {
+    "domicilio" : [
+      {"exp" : "(c.p.)\\s?\\d{5}", "flag": "gim"}
+    ],
+    "calle": [
+      {"exp" : "(Nombre y Domicilio)\\n.+", "flag": "i"}
+    ]
+  },
+  "TARJECT": {
+    "numero" : [
+      {"exp" : "(\\d|\\w){4}(\\s)(\\d|\\w){4}(\\s)(\\d|\\w){4}(\\s)(\\d|\\w){4}\\n", "flag": "gim"},
+      {"exp" : "(\\d|\\w){4}(\\s)(\\d|\\w){6}(\\s)(\\d|\\w){5}\\n", "flag": "gim"}
+    ]
+  },
+  "NSS": {
+    "numero" : [
+      {"exp" : "(\\d){10}[-\\s]\\d", "flag": "gim"},
+      {"exp" : "(\\d|\\w){10}[\\s-]{1,3}?(\\d|\\w){1}", "flag": "gim"},
+      {"exp" : "(\\d|\\w){10}((\\s)|(\\s-\\s)|(\\s{2,3}))\\d{1}", "flag": "gim"}
+    ]
+  },
+  "NOMINA": {
+    "FOLIO_FISCAL": [
+      {"exp" : "(FOLIO FISCAL)[\\s\\n][\\d|\\w]{8}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{12}", "flag": "gim"},
+      {"exp" : "[\\d|\\w]{8}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{4}[-|\\s][\\d|\\w]{12}", "flag": "gim"}
+    ]
+  },
+  "PASAPORTE": {
+    "APELLIDOS": [
+      {"exp" : "(apellido|surname|Sumame|surna).+\\n.+", "flag": "gim"}
+    ],
+    "NOMBRES": [
+      {"exp" : "(nombre|given|names|pr(é|e)noms).+\\n.+", "flag": "gi"}
+    ],
+    "FECHAS": [
+      {"exp" : "\\d{2}\\s\\d{2}\\s\\d{4}", "flag": "gm"}
+    ],
+    "NUM_PASAPORTE": [
+      {"exp" : "\\w{1}\\d{8}", "flag": "gim"}
+    ],
+    "CURP" : [
+      {"exp": "[a-z0]{4}[0-9o]{6}[a-z0]{6}[0-9o]{2}", "flag": "img"}
+    ]
+  },
+  "CARTILLA": {
+    "NOMBRE": [
+      {"exp" : "(nombre\\s?).+", "flag": "i"}
+    ],
+    "NACIMIENTO": [
+      {"exp" : "(Fecha\\s?de\\s?nacimiento\\s?).+\\d{4}", "flag": "i"}
+    ],
+    "PLACE_NACIMIENTO": [
+      {"exp" : "(Naci[ó|o]\\s?en\\s?).+", "flag": "i"}
+    ],
+    "DOMICILIO": [
+      {"exp" : "(Domicilio\\s?).+", "flag": "i"}
+    ],
+    "CURP" : [
+      {"exp": "[a-z0]{4}[0-9o]{6}[a-z0]{6}[0-9o]{2}", "flag": "i"}
+    ]
+  }
+}
